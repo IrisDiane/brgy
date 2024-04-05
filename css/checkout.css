@@ -1,0 +1,106 @@
+.toCheckOutContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 90vh;
+    width: 90%;
+    max-width: 500px;
+    background-color: #282A1D;
+    border-radius: 50px;
+    border: #eee 5px solid;
+}
+
+.buttonContainer {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: #eee;
+    border-color: #eee;
+    border-radius: 20px;
+}
+
+.cancel {
+    border-color: red;
+}
+
+form {
+    display: block;
+    text-align: center;
+
+    & label {
+        color: #eee;
+        font-family: 'Baiti';
+    }
+    & input{
+        width: 90%;
+        height: 30px;
+        padding-left: 20px;
+        background-color: transparent;
+        border-color: #eee;
+        border-radius: 20px;
+        margin: 5px;
+        color: #eee;
+
+        &::placeholder{
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}
+
+.toCheckOut{
+    height: 40dvh;
+    width: 100%;
+    overflow-y: auto;
+    margin: auto auto;
+    margin-top: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: #ceca;
+
+}
+
+.shipOutProducts{
+    width: 80%;
+    background-color: #eee;
+    margin: auto auto;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 20px;
+
+    & img {
+        height: 80px;
+        max-width: 20%;
+        margin-left: 5px;
+    }
+
+    & div{
+        width: 75%;
+        margin-left: 2%;
+        & h1 {
+            font-size: 2rem;
+            margin: 0;
+            margin-top: 5px;
+        }
+
+        & h2 {
+            font-size: 1rem;
+            margin: 1px;
+        }
+
+        & h5 {
+            font-size: 1rem;
+            margin: 2px;
+        }
+    }
+}

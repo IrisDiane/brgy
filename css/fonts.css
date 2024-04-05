@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Skeina';
+    src: url('/font/Skeina.otf') ;
+}
+
+@font-face {
+    font-family: 'Baiti';
+    src: url('/font/monbaiti.otf') ;
+}
+
+@font-face {
+    font-family: 'Corsiva';
+    src: url('/font/Monotype Corsiva.ttf');
+}
+
+@font-face {
+    font-family: 'Komodo';
+    src: url('/font/Komodo.otf');
+}

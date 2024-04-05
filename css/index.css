@@ -1,0 +1,49 @@
+.front-container {
+    position: absolute;
+    width: 400px;
+    margin-top: -50dvh;
+    margin-left: 150px;
+
+
+    & .frontText{
+        font-family: 'Skeina';
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    & .line {
+        background-color: black;
+        width: 350px;
+        height: 5px;
+        margin-top: -60px;
+        margin-left: 25px;
+    }
+
+    & .shopNow {
+        width: 120px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 150px;
+        background-color: #282A1D;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Baiti';
+        font-weight: 100;
+    }
+
+}
+
+.cover {
+    position: absolute;
+    top: 0px;
+    height: 100dvh;
+    width: 100%;
+    z-index: -100;
+    background-image: url(/img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
